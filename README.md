@@ -18,4 +18,4 @@ Buscador de CEP usando API axius
 
 ## Autor
 
-| [<img src="(https://avatars.githubusercontent.com/u/90710910?s=400&u=ee82e60696bb554c7a1fff0da2368c2dcda54786&v=4)" width=115><br><sub> wesley francisco berto  </sub>](https://github.com/WesleyBert) 
+| [<img src="https://avatars.githubusercontent.com/u/90710910?s=400&u=ee82e60696bb554c7a1fff0da2368c2dcda54786&v=4" width=115><br><sub> wesley francisco berto  </sub>](https://github.com/WesleyBert) 
