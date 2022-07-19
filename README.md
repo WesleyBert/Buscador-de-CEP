@@ -14,3 +14,8 @@ Buscador de CEP usando API axius
 
 
  Acesso ao projeto clique no link https://wesleybert.github.io/Buscador-de-CEP/
+
+
+## Autor
+
+| [<img src="https://avatars.githubusercontent.com/u/37356058?v=4" width=115><br><sub> wesley francisco berto  </sub>](https://github.com/WesleyBert) 
