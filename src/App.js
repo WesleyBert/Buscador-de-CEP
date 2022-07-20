@@ -8,12 +8,15 @@ function App() {
 
   const [input, setInput] = useState('')
   const [cep, setCep] = useState({});
-
-  async function handleSearce(){
+  
+  
+async function handleSearce(){
     if(input === ''){
       alert("preenchar algum CEP")
       return;
+
     }
+
     try{
       const reponse = await api.get(`${input}/json`);
       setCep(reponse.data)
@@ -24,6 +27,12 @@ function App() {
       setInput("")
     }
   }
+  
+ const handleKeyPress = (event) => {
+    if(event.key === 'Enter'){
+      handleSearce()
+    }
+    };
 
   return (
     <div className="container">
@@ -35,6 +44,7 @@ function App() {
        placeholder="Digite seu CEP.."
       value={input}
       onChange={(e)=> setInput(e.target.value)}
+      onKeyPress={handleKeyPress}
       />
     
     <button className="buttonSearch" onClick={handleSearce}>
